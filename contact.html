@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en-us">
+
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Steve Garrison | Developer</title>
+                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+                <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+                <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/css/mdb.min.css" rel="stylesheet">
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                    crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="style.css">
+            </head>
+
+<body>
+    <!--Begin NavBar-->
+    <div class="container-fullwidth bg-dark">
+        <div class="row">
+            <div class="col-md-3">
+                <h3 class="text-light bg-dark text-center">Steve Garrison</h3>
+            </div>
+            <div class="col-md-9">
+                <ul class="nav justify-content-end bg-dark">
+                    <li class="nav-item ">
+                        <a class="nav-link active text-light" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--End NavBar-->
+    <!--Section: Contact v.2-->
+    <div class="container bg-light" id="contact-container">
+        <div class="row">
+            <div class="col-md-12">
+                <!--Section heading-->
+                <div class="row">
+                    <h2 class="h1-responsive font-weight-bold text-center my-4 text-dark" id="contact-steve">Contact Steve</h2>
+                    <!--Grid column-->
+                    <div class="col-md-1"></div>
+                    <div class="col-md-12">
+                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                            <!--Grid row-->
+                            <div class="row">
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="name" name="name" class="form-control">
+                                        <label for="name" class="">Your name</label>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="email" name="email" class="form-control">
+                                        <label for="email" class="">Your email</label>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+                            </div>
+                            <!--Grid row-->
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="subject" name="subject" class="form-control">
+                                        <label for="subject" class="">Subject</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid row-->
+                            <!--Grid row-->
+                            <div class="row">
+                                <!--Grid column-->
+                                <div class="col-md-12">
+                                    <div class="md-form">
+                                        <textarea type="text" id="message" name="message" rows="2"
+                                            class="form-control md-textarea"></textarea>
+                                        <label for="message">Your message</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid row-->
+                        </form>
+                        <div class="text-center text-md-left">
+                            <a class="btn btn-success"
+                                onclick="document.getElementById('contact-form').submit();">Send</a>
+                        </div>
+                        <div class="status"></div>
+                    </div>
+                    <!--Grid column-->
+                </div>
+            </div>
+        </div>
+    </div>
+       <!-- Footer -->
+       <footer class="page-footer font-small bg-dark darken-3" id="footer">
+
+            <!-- Footer Elements -->
+            <div class="container">
+    
+                <!-- Grid row-->
+                <div class="row">
+    
+                    <!-- Grid column -->
+                    <div class="col-md-12">
+                        <div class="mb-3 flex-center">
+                            <!--Linkedin -->
+                            <a class="li-ic">
+                                <i class="fab fa-linkedin-in fa-lg white-text mr-md-3 mr-3 fa-2x pt-2"> </i>
+                            </a>
+                            <a class="ins-ic">
+                                <i class="fab fa-instagram fa-lg white-text mr-md-3 mr-3 fa-2x pt-2"> </i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+    
+                </div>
+                <!-- Grid row-->
+    
+            </div>
+            <div class="flex-center" id="footer-text">Steve Garrison 2019</div>
+            </div>
+    
+        </footer>
+        <!-- Footer -->
+</body>
+
+</html>
